@@ -4,7 +4,7 @@
 #include <linux/sched/signal.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Adithya S");
+MODULE_AUTHOR("Nanashibi");
 
 void print_process_tree(struct task_struct *task, int depth) {
     struct task_struct *child_task;
